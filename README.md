@@ -18,3 +18,12 @@ php artisan make:model Post --migration --controller --all
 
 ## Seeder
 - php artisan migrate:fresh --seed
+
+## how to install
+-composer install
+
+-Rename .env.example file to .envinside your project root 
+
+-php artisan key:generate
+
+-php artisan migrate:fresh --seed
